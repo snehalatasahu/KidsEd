@@ -1,0 +1,37 @@
+.footer-section{
+
+    background-color: rgb(53, 53, 53);
+    /*width: 100vw;*/
+    color: white;
+  }
+  
+  .footer-container{
+    padding-top: 50px;
+  }
+
+  .footer-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+  }
+
+  .footer-subsection-list{
+      text-align: left;
+  }
+
+  
+@media (max-width: 800px) {
+    .footer-text{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 200;
+      font-size: 0.85em;
+    }
+    .footer-container{
+      padding-top: 50px;
+      text-align: center;
+    }
+    .footer-subsection-title{
+        font-size: 1.75em;
+    }
+    
+  }

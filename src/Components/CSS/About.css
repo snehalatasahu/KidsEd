@@ -1,0 +1,52 @@
+
+.about-img{
+    width: 60%;
+}
+.bullets-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+.bullets-subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .about-img{
+        width: 80%;
+    }
+    .bullets-title{
+        font-size: 1.2rem;
+    }
+    .bullets-subtitle{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .bullets-section{
+padding-top: 50px;
+    }
+}
+
+.about-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    margin-bottom: 30px;
+}
+
+.about-section-col{
+    text-align: center;
+}
+
+.icon{
+    margin-left: 3px;
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+    color: rgb(223, 180, 39);
+
+}
