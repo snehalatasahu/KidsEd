@@ -2,40 +2,41 @@
 .about-img{
     width: 60%;
 }
-.bullets-title{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    font-size: 1.5rem;
+
+.bullets-section{
+    padding-top: 20px;
 }
-.bullets-subtitle{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-    font-size: 1rem;
-}
+
+
 @media only screen and (max-width: 600px) {
     .about-img{
         width: 80%;
     }
-    .bullets-title{
-        font-size: 1.2rem;
+
+    .bullets-section{
+        padding-top: 10px;
     }
-    .bullets-subtitle{
-        font-size: 0.9rem;
+
+    .bullets-section .title-text{
+        text-align: center;
     }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
-@media only screen and (min-width: 768px) {
-    .bullets-section{
-padding-top: 50px;
-    }
-}
 
 .about-section{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(53, 53, 53);
-    color: white;
-    margin-bottom: 30px;
+    
+}
+
+.about-section:nth-child(odd){
+    background-color: #EEFBFB;
 }
 
 .about-section-col{
@@ -50,3 +51,12 @@ padding-top: 50px;
     color: rgb(223, 180, 39);
 
 }
+
+.MuiButton-contained{
+ color: white !important;
+ background-color: #4DA8DA !important;
+}
+
+.MuiButton-root {
+    border-radius: 25px !important;
+  } 

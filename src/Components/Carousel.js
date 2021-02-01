@@ -13,7 +13,10 @@ const Carousel = () => {
     <div className='header'>
         <BackgroundSlider
   images={[img1, img2, img3, img4, img5]}
-  duration={2} transition={10} />
+//   images={[img1]}
+  duration={2.5} transition={0.5} 
+//   duration={100} transition={1} 
+/>
   <h2 className='title'>Nurture your kids the best way they deserve.
 </h2>  
     </div>

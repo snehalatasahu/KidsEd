@@ -1,18 +1,9 @@
 .vision-section{
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
-.vision-title{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 2rem;
 
-}
-.vision-subtitle{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-weight: 1rem;
-}
 
 @media only screen and (max-width: 600px) {
     .vision-title{
@@ -151,3 +142,4 @@
       border-radius: 50%;
     }
   }
+

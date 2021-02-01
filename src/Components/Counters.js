@@ -18,7 +18,7 @@ const Counters = () => {
           
               <FaUser className='icon'/>
             <h2 className='count'><CountUp end={150} delay={2} duration={10} /></h2>
-            <h5 className='subtitle'>STUDENTS</h5>
+            <h4 className='subtitle-text'>STUDENTS</h4>
           
         </Col>
 
@@ -26,7 +26,7 @@ const Counters = () => {
           
               <FaChalkboardTeacher className='icon'/>
             <h2><CountUp end={50} delay={2} duration={8} /></h2>
-            <h5 className='subtitle'>INSTRUCTORS</h5>
+            <h4 className='subtitle-text'>INSTRUCTORS</h4>
           
         </Col>
 
@@ -34,7 +34,7 @@ const Counters = () => {
           
               <FaBook className='icon'/>
               <h2><CountUp end={120} delay={2} duration={10} /></h2>
-              <h5 className='subtitle'>COURSES</h5>
+              <h4 className='subtitle-text'>COURSES</h4>
             
           
         </Col>

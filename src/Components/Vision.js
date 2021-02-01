@@ -7,12 +7,14 @@ import test2 from "../Assets/testimonial2.jpg";
 import test3 from "../Assets/testimonial3.jpg";
 import "./CSS/Vision.css";
 
+
 const Vision = () => {
     return (
 <Container className='vision-section'>
+
     <Container >
-    <h1 className='vision-title'>OUR VISION</h1>
-    <h4 className='vision-subtitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta rerum quis totam culpa harum obcaecati, ipsa quibusdam reprehenderit distinctio autem.</h4>
+    <h1 className='title-text'>Our Vision</h1>
+    <h4 className='subtitle-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta rerum quis totam culpa harum obcaecati, ipsa quibusdam reprehenderit distinctio autem.</h4>
     </Container>
 
     <Carousel

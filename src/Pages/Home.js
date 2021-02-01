@@ -2,7 +2,6 @@ import React from "react";
 import Container from "@material-ui/core/Container";
 import Carousel from "../Components/Carousel";
 import Counters from "../Components/Counters";
-import BuyNow from "../Components/BuyNow";
 import About from "../Components/About";
 import Vision from "../Components/Vision";
 import SubSections from "../Components/SubSections";
@@ -15,8 +14,8 @@ const Home = () => {
       <Carousel/>
       <Counters/>
       <About/>
-      <Vision/>
       <SubSections/>
+      <Vision/>      
       <Footer/>
     </>
   );

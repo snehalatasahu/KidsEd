@@ -1,37 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 .sub-img{
     width: 95%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.sub-title{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-    padding-top: 20px;
-}
+
 
 @media only screen and (max-width: 600px) {
     .sub-img{
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    .sub-title{
-        font-size: 1.75rem;
-    }
     .text-over-img{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .text-over-img:hover{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
   }
 
 .sub-section{
     text-align: center;
-    /* background-color: rgb(53, 53, 53); */
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+
 
 .img-container{
     position: relative;
@@ -41,13 +38,13 @@
 
 .text-over-img{
     position: absolute;
-    top: 50%;
+    top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.548);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 3rem;
+    font-family: 'Satisfy', cursive;
+    font-weight: 300;
+    font-size: 2.5rem;
     color: white;
     width: 95%;
     
@@ -56,6 +53,21 @@
 .text-over-img:hover{
     background-color: rgba(0, 0, 0, 0.664);
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 3rem;
     transition: 0.5s;
 }
+
+.parallax{
+    
+    /* The image used */
+background-image: url("../../Assets/sky.jpg");
+
+/* Set a specific height */
+height: inherit;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
